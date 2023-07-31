@@ -1,0 +1,7 @@
+bookdown::bs4_book:
+  includes:
+    in_header: [header.html]
+  theme:
+    primary: "#999999"
+  repo: https://github.com/dullhunk/industry-club
+

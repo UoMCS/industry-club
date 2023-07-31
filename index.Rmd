@@ -1,0 +1,31 @@
+---
+title: Industry Club
+author: last updated on `r format(Sys.time(), '%d %B, %Y')` 
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [/Users/duncan/Documents/GitHub/cdyf/hulld.bib, /Users/duncan/Documents/GitHub/cdyf/cdyf-playlist.bib, /Users/duncan/Documents/GitHub/cdyf/cdyf-signposts.bib, /Users/duncan/Documents/GitHub/cdyf/cdyf-references.bib]
+biblio-style: apalike
+link-citations: yes
+fontsize: 12pt
+github-repo: dullhunk/industryclub
+twitter-handle: 
+always_allow_html: true
+description: ""
+url: 'https\://industry-club.cs.manchester.ac.uk/'
+
+---
+
+# Welcome {-}
+
+Hello and welcome to the industry club of the Department of Computer Science at the University of Manchester. Membership of this club is open to employers who:
+
+* Recruit our students
+    + undergraduate (Bachelors degrees)
+     postgraduate degrees (Masters and PhD)
+* Collaborate on research projects 
+* Participate in other activities such as our software engineering mentoring scheme and careers fairs  
+
+
+```{r echo = FALSE, fig.align = "center", out.width = "100%", fig.cap = "Any employer recruiting our students is welcome to join our industry club, see details below"}
+knitr::include_graphics("images/industry-club-wide.png")
+```
