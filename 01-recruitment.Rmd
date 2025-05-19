@@ -1,0 +1,102 @@
+# Recruiting our Students {#recruitment}
+Many of our students are recruited _before_ they graduate by working for an employer on a fixed-term contract, either as a summer internship or through our Industrial Experience program. 
+
+
+## About our students {#students}
+
+We are a big department with a lots of students. As of 2024/5 we have around: 
+
+* ~1200 students studying our two main undergraduate programes
+    + BSc (Hons) Computer Science 
+    + BSc (Hons) Computer Science with Mathematics
+* 240+ Postgraduate Taught students, doing Masters degrees
+* 240+ PhD students doing research supervised by academics
+
+## Year long placements {#ie}
+
+A significant proportion of our undergraduate students do a year in industry. 
+
+```{r bigie-fig, echo = FALSE, results='hide', message=FALSE, warning=FALSE, fig.align = "center", out.width = "100%", fig.cap = "(ref:iebig)"}
+
+library(tidyverse)
+library(ggplot2)
+library(forcats)
+
+uomie <- readr::read_csv("https://raw.githubusercontent.com/dullhunk/cdyf/master/data/uomie.csv")
+
+ggplot(uomie) + geom_bar(mapping = aes(x = IE, y = Department), stat= "identity")
+
+
+```
+
+<!--
+
+ggplot(uomie) + geom_bar(mapping = aes(x = IE, y = Department), stat = "identity")
+
+
+ggplot(uomie, aes(y = IE)) + geom_bar() doesn't like data in uomie because its different to mpg data in ways I don't currently understand
+
+its a data frame with 234 rows and 11 variables, manufacturer, model, displ, year, cyl, trans, driv, cty, hwy, fl, class
+
+https://ggplot2.tidyverse.org/reference/mpg.html
+
+https://github.com/tidyverse/ggplot2/blob/main/data-raw/mpg.csv
+
+https://github.com/dullhunk/cdyf/issues/1187
+
+ggplot(uomie) + geom_bar(mapping = aes(x = forcats::fct_infreq(IE), y = Department), stat = "identity")
+
+
+
+! Problem while computing aesthetics.
+ℹ Error occurred in the 1st layer.
+Caused by error in `forcats::fct_infreq()`:
+! `f` must be a factor or character vector, not a double vector.
+
+-->
+
+(ref:iebig) Number of undergraduate students starting year-long Industrial Experience placement years in 2024 at the University of Manchester. The data is plotted by Department: `Physics`: Department of Physics & Astronomy[physics.manchester.ac.uk](https://www.physics.manchester.ac.uk), `Maths`: Department of Mathematics [maths.manchester.ac.uk](https://www.maths.manchester.ac.uk) , `Materials`: Department of Materials [materials.manchester.ac.uk](https://www.materials.manchester.ac.uk/), `MACE`: Department of Mechanical, Aerospace [mace.manchester.ac.uk](https://www.mace.manchester.ac.uk/), and Civil Engineering (MACE), `EES`: Department of Earth and Environmental Sciences [ees.manchester.ac.uk](https://www.ees.manchester.ac.uk/), `EEE`: Department of Electrical and Electronic Engineering [eee.manchester.ac.uk](https://www.eee.manchester.ac.uk/), `CS`: Department of Computer Science [cs.manchester.ac.uk](https://www.cs.manchester.ac.uk/), `Chemistry`: Department of Chemistry [chemistry.manchester.ac.uk](https://www.chemistry.manchester.ac.uk/), `ChemEng`: Department of Chemical Engineering [ce.manchester.ac.uk](https://www.ce.manchester.ac.uk/). Data from PowerBI as of 2025.
+
+year long placements
+
+We are working hard to improve the employability of students because while having a Computer Science is necessary for some jobs, it is not sufficient. [@unemployed; @shadboltreview; @fincherreview; @finchergecco] Over the last decade we have been successful in *more than doubling* the number of our students going on year long placements in industry to around 100 per year, see figure \@ref(fig:ie-fig). This is a win-win-win situation for:
+
+1. **Students**: benefit from a broader education, and develop social and non-cognitive skills that can be challenging to teach and learn in a purely academic environment. This is known as the [winning personality](https://www.suttontrust.com/research-paper/a-winning-personality-confidence-aspirations-social-mobility/) [@winningpersonality].
+2. **Employers**: placements are a cost-effective way for employers to recruit (and retain) graduate talent
+3. **Universities**: produce better graduates [@Mandilaras2004] with broader and deeper skills, who earn more and get better jobs [@winningpersonality]. Well paid placements can also facilitate social mobility. [@Wang2018]
+
+
+
+```{r ie-fig, echo = FALSE, results='hide', message=FALSE, warning=FALSE, fig.align = "center", out.width = "100%", fig.cap = "(ref:ieblurb)"}
+
+library(tidyverse)
+library(ggplot2)
+
+evenmoarplacements <- readr::read_csv("https://raw.githubusercontent.com/dullhunk/cdyf/master/data/onie.csv")
+
+
+ggplot(data = evenmoarplacements) + geom_bar(mapping = aes(x = year, y = students), stat = "identity")
+```
+
+(ref:ieblurb) Number of undergraduate Computer Science students completing a year in industry as part of their degree at the University of Manchester. Since 2008 over 900 students have completed the program. I have been leading the program since 2012 and managed to ~double the number of students doing placements per year. As you can see in the histogram, the COVID-19 pandemic started having an effect on students starting placements in 2020.
+
+Previously our students have secured year long placements at a wide range of employers including Accenture, Agilent Technologies, Amazon, AND Digital, Apadmi, Arggo, ARM, Autodesk, AVL Powertrain, BAML, the BBC, Biorelate, BJSS, Bloomberg, BMW Mini, Bsquare Controls, BT, Cantarus, Celtra, CERN, Codethink, d3t, Elysian Systems, Feral Interactive, Fidelity, FiveAI, HMRC, IBM, Imagination Technologies, Intel, ISA Software, JP Morgan, Keysight Technologies, KPMG, Matillion, McAfee, Mentor Graphics, Monoprix, Morgan Stanley, NCC Group, Nokia, Nomura, Novacoast, Ocado, PA Consulting, PwC, Schlumberger, ServiceNow, Siemens, Soda Software, SteamaCo, The Hut Group, The Start Up Factory, Uber, Visa and Vodafone.
+
+
+
+## Summer internships {#interns}
+summer interns
+
+## Part-time work 
+
+Imago
+
+
+## Wednesday Waggle {#waggle}
+
+During term time, we highlight events and vacancies for Computer Science students from a [wide range of sources](https://www.cdyf.me/finding) in a weekly newsletter called the *Wednesday Waggle* ([waggle.cs.manchester.ac.uk](https://waggle.cs.manchester.ac.uk/waggle/about)) 🐝. This goes out to around ~1500 Bachelors and Masters Computer Science students in Manchester each week. If you have vacancies or events you would like our students to know about, you can advertise them at [careerconnect.manchester.ac.uk](https://careerconnect.manchester.ac.uk/), and let me know when they are live in the system, then I can highlight them to the weekly newsletter. Alternatively, point us to where they are advertised online, see [advertising vacancies to students](https://www.cdyf.me/finding#studentjobs). It can help students find your needle in the jobs haystack.
+
+
+
+
+

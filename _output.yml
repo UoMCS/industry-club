@@ -3,5 +3,6 @@ bookdown::bs4_book:
     in_header: [header.html]
   theme:
     primary: "#999999"
-  repo: https://github.com/dullhunk/industry-club
+  repo: https://github.com/uomcs/industry-club
 
+bookdown::word_document2: default

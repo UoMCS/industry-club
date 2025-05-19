@@ -1,0 +1,14 @@
+# Industrial Research {#research}
+
+Industrial research and development.
+
+## Co-supervised projects {#cosupervise}
+If you would like to co-supervise a project student in collaboration with an academic member of staff, there are several options. The best option depends on the domain, level and duration of the project:
+
+* **Bachelors projects**: these are completed in the final year of a Bachelors degree and last for six months, starting in September and finishing in March. Projects are proposed (and offered to students) in March and start in September of the same year.
+* **Masters projects**: again these are six months in duration but start in March and finish in September. Projects are proposed (and offered to students) in the preceding November.
+* **PhD projects**: For industrially sponsored or co-supervised projects, speak to the research office at [cs.manchester.ac.uk/research](https://www.cs.manchester.ac.uk/research/).
+* **Knowledge Transfer Partnerships**: We have a range of [KTPs](https://www.gov.uk/guidance/knowledge-transfer-partnerships-what-they-are-and-how-to-apply), speak to the research office for details
+* **Impact Acceleration Accounts**: We have a range of [IAAs](https://epsrc.ukri.org/innovation/fundingforimpact/impact-acceleration-accounts/), speak to the research office for details
+
+For Bachelors and Masters projects, you can contact academic members of staff directly, or speak to [Terence Morley](https://research.manchester.ac.uk/en/persons/terence.morley) (final year project lead) or [Thomas Thomson](https://research.manchester.ac.uk/en/persons/thomas.thomson), who leads our postgraduate taught (Masters) courses.
