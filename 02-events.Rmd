@@ -1,5 +1,10 @@
 # Events for Employers {#events}
-We host a range of events in Computer Science for employers to engage with.  The largest event is our annual computing careers fair, 
+We host a range of events in Computer Science for employers to engage with.  
+
+```{r business-fig, echo = FALSE, fig.align = "center", out.width = "100%", fig.cap = ""}
+knitr::include_graphics("images/business-engagement.jpg")
+```
+
 
 ## Annual Computing Careers fair {#autumn}
 Our annual Computer Science careers fair is held in the Nancy Rothwell Building in autumn, we typically have around 30 employers exhibiting over two days. As space is limited, we are always over-subscribed and are not able to accommodate every employer that our students will be interested in. We give priority to employers that offer internships, placements and graduate roles and have contributed to our community through the activities described on this page. The central careers service also organises:  

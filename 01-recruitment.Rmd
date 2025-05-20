@@ -62,7 +62,7 @@ library(ggplot2)
 evenmoarplacements <- readr::read_csv("https://raw.githubusercontent.com/dullhunk/cdyf/master/data/onie.csv")
 
 
-ggplot(data = evenmoarplacements) + geom_bar(mapping = aes(x = year, y = students), stat = "identity")
+ggplot(data = evenmoarplacements) + geom_bar(mapping = aes(x = year, y = students), stat = "identity") + labs(y = "Number of students", x = "Start of Industrial Experience (IE) Year")
 ```
 
 (ref:ieblurb) Number of undergraduate Computer Science students completing a year in industry as part of their degree at the University of Manchester. Since 2008 over 900 students have completed the program. I have been leading the program since 2012 and managed to ~double the number of students doing placements per year. As you can see in the histogram, the COVID-19 pandemic started having an effect on students starting placements in 2020.

@@ -2,6 +2,10 @@
 
 Industrial research and development.
 
+```{r research-fig, echo = FALSE, fig.align = "center", out.width = "100%", fig.cap = ""}
+knitr::include_graphics("images/research.jpg")
+```
+
 ## Co-supervised projects {#cosupervise}
 If you would like to co-supervise a project student in collaboration with an academic member of staff, there are several options. The best option depends on the domain, level and duration of the project:
 

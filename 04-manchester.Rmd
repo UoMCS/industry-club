@@ -2,6 +2,10 @@
 
 Our graduates go on to work around the world. Of those that stay in the UK  many students move to London but an increasing number of them are finding work in Manchester after they graduate.  
 
+```{r manchester-fig, echo = FALSE, fig.align = "center", out.width = "100%", fig.cap = ""}
+knitr::include_graphics("images/civic.jpg")
+```
+
 As a civic University we encourage and support by building stronger relationships with local businesses in Greater Manchester and across Northern England. See our [Civic University Agreement](https://www.manchester.ac.uk/about/social-responsibility/civic/civic-agreement/). [@civic]
 
 ## Even Greater Manchester {#civic}
@@ -11,6 +15,7 @@ Universities are critical to the economic, social, cultural and environmental we
 * [aws.amazon.com](https://aws.amazon.com/)
 * [autocab.com](https://www.autocab.com/)
 * [bbc.co.uk](https://www.bbc.co.uk) at MediaCityUK
+* [biorelate.com](https://biorelate.com/) 
 * [arm.com](https://www.arm.com/)
 * [booking.com](https://www.booking.com/)
 * [couchbase.com](https://www.couchbase.com/)

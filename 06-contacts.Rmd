@@ -2,6 +2,11 @@
 
 Details on how to contact us in the Department of Computer Science and join our Industry Club for employers and collaborators: 
 
+```{r contacts-fig, echo = FALSE, fig.align = "center", out.width = "100%", fig.cap = ""}
+knitr::include_graphics("images/three-factories.png")
+```
+
+
 * **Head of Department**: Professor Andrew Stewart [research.manchester.ac.uk/en/persons/andrew.j.stewart](https://research.manchester.ac.uk/en/persons/andrew.j.stewart)
 * **Director of Business Engagement and Innovation**  Professor [research.manchester.ac.uk/en/persons/lucas.cordeiro](https://research.manchester.ac.uk/en/persons/lucas.cordeiro)
 * **Employability Lead**: Dr Duncan Hull [research.manchester.ac.uk/en/persons/duncan.hull](https://research.manchester.ac.uk/en/persons/duncan.hull)
