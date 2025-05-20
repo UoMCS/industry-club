@@ -1,5 +1,6 @@
 fig:unnamed-chunk-1
 fig:busy-fig
+fig:graduating-your-fig
 fig:bigie-fig
 fig:ie-fig
 collabs
