@@ -1,6 +1,7 @@
 # Guest Speakers {#guests}
-We host a range of events and talks that employers can engage with.
-## Scheduled guest lectures 
+We host a range of events and talks by guest speakers that employers can deliver or engage with.
+
+
 
 
 ## Guest lectures from employers {#guestlectures}
@@ -38,6 +39,10 @@ For COMP101, we are always looking for good speakers who can engage large groups
 Since lockdown, lectures have been online, which has allowed for more interaction, typically via the chat dialogue. We can monitor and moderate the chat, feeding questions to the speaker when it's appropriate.
 
 
+## Scheduled guest lectures 
+guest lectures
+
+
 ## industrial mentoring 
 
 Our industrial mentoring program 
@@ -45,4 +50,14 @@ Our industrial mentoring program
 
 ## Bespoke and pop-up events
 
-Some of these are done through student societies 
+
+
+## Junior and senior {#junior}
+
+We welcome talks from both junior and senior guests alike. Junior speakers have the advantage of being closer in age to the audience and it gives early careers gradautes a good opportunity and experience to developer their public speaking skills. 
+
+Senior speakers have the advantage of extra insights and experience. An example of a more junior talk is shown below. 
+
+```{r, eval=knitr::is_html_output(excludes = "epub"), results='asis', echo=FALSE}
+cat('<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7305164652924076034" height="984" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>')
+```

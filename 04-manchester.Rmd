@@ -1,7 +1,32 @@
 # Greater Manchester {#manchester} 
 
-Our students go on to work around the world, many students work in the UK after they graduate, often in London but increasingly 
+Our graduates go on to work around the world. Of those that stay in the UK  many students move to London but an increasing number of them are finding work in Manchester after they graduate.  
 
-As a civic University we are keen to engage with and support local businesses in and around Manchester. 
+As a civic University we encourage and support by building stronger relationships with local businesses in Greater Manchester and across Northern England. See our [Civic University Agreement](https://www.manchester.ac.uk/about/social-responsibility/civic/civic-agreement/). [@civic]
 
-[Northern Powerhouse](https://northernpowerhouse.gov.uk/), see [git.io/manc](https://git.io/manc). [@gitmanc;]
+## Even Greater Manchester {#civic}
+
+Universities are critical to the economic, social, cultural and environmental wellbeing of their cities and regions. We recognise the growing importance of this civic role in Greater Manchester. The city has seen an influx of technology employers move to or expand their presence in Greater Manchester in the last decade or so including:
+
+* [aws.amazon.com](https://aws.amazon.com/)
+* [autocab.com](https://www.autocab.com/)
+* [bbc.co.uk](https://www.bbc.co.uk) at MediaCityUK
+* [arm.com](https://www.arm.com/)
+* [booking.com](https://www.booking.com/)
+* [couchbase.com](https://www.couchbase.com/)
+* [Disney Streaming](https://en.wikipedia.org/wiki/Disney_Streaming)
+* [epicgames.com](https://www.epicgames.com)
+* [jlr.com](https://www.jlr.com)
+* [gchq.gov.uk](https://www.gchq.gov.uk)
+
+Alongside these larger companies, there is a 
+
+* [apadmi.com](https://www.apadmi.com/)
+* [cantarus.com](https://www.cantarus.com/)
+* [fuzzylabs.ai](https://www.fuzzylabs.ai) 
+* [koder.ly](https://www.koder.ly)
+* [innovative-technology.com](https://www.innovative-technology.com)
+* [interactsoftware.com](https://www.interactsoftware.com)
+* [portswigger.net](https://portswigger.net)
+
+This is not an exhaustive list, just a flavour of technology employers in Manchester that our students and graduates are (or have been) employed by. [@gitmanc;]

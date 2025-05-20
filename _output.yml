@@ -5,4 +5,4 @@ bookdown::bs4_book:
     primary: "#999999"
   repo: https://github.com/uomcs/industry-club
 
-bookdown::word_document2: default
+# bookdown::word_document2: default

@@ -17,6 +17,7 @@ ie
 interns
 part-time-work
 waggle
+hackathons
 events
 autumn
 bespoke
@@ -24,11 +25,18 @@ careersfairs
 dropins
 research
 cosupervise
+ip
 manchester
+civic
 guests
 guestlectures
 examples-of-comp101-lectures
 interested-in-speaking
+scheduled-guest-lectures
 bespoke-and-pop-up-events
+junior
 contacts
+email
+linkedin
+socials
 references

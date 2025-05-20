@@ -1,13 +1,30 @@
-# Contacts {#contacts}
+# Contact and join us {#contacts}
 
-Get in touch
+Details on how to contact us in the Department of Computer Science and join our Industry Club for employers and collaborators: 
 
-* Head of Department
-* Head of Research
-* Employability Lead
+* **Head of Department**: Professor Andrew Stewart [research.manchester.ac.uk/en/persons/andrew.j.stewart](https://research.manchester.ac.uk/en/persons/andrew.j.stewart)
+* **Director of Business Engagement and Innovation**  Professor [research.manchester.ac.uk/en/persons/lucas.cordeiro](https://research.manchester.ac.uk/en/persons/lucas.cordeiro)
+* **Employability Lead**: Dr Duncan Hull [research.manchester.ac.uk/en/persons/duncan.hull](https://research.manchester.ac.uk/en/persons/duncan.hull)
 
-there we goes
+## Join the Industry Club {#join}
 
-## Elsewhere {#elsewhere}
+deets 
 
-who else to 
+## Web, email and phone {#email}
+
+For more information on teaching, research and staff in the Department, see 
+
+* [www.cs.manchester.ac.uk](https://www.cs.manchester.ac.uk)
+* [www.cs.manchester.ac.uk/connect/contact/](https://www.cs.manchester.ac.uk/connect/contact/)
+
+## LinkedIn {#linkedin}
+
+You can also follow us on social media, principally LinkedIn
+
+```{r, eval=knitr::is_html_output(excludes = "epub"), results='asis', echo=FALSE}
+cat('<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7305164652924076034" height="984" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>')
+```
+
+## Other social media {#socials}
+
+For other social media channels see 

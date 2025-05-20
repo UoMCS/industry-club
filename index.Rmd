@@ -4,9 +4,10 @@ author: last updated on `r format(Sys.time(), '%d %B, %Y')`
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [/Users/user/Documents/GitHub/cdyf/hulld.bib, /Users/user/Documents/GitHub/cdyf/cdyf-playlist.bib, /Users/user/Documents/GitHub/cdyf/cdyf-signposts.bib, /Users/user/Documents/GitHub/cdyf/cdyf-references.bib, /Users/user/Documents/GitHub/placement-handbook/book.bib]
-biblio-style: apalike
+biblio-style: 
 link-citations: yes
 csl: /Users/user/Zotero/styles/harvard-imperial-college-london.csl
+# local copy but available from https://www.zotero.org/styles
 fontsize: 12pt
 github-repo: uomcs/industryclub
 always_allow_html: true
@@ -19,6 +20,10 @@ url: 'https\://industry-club.cs.manchester.ac.uk/'
 
 Hello and welcome to the Industry Club of the Department of Computer Science at the University of Manchester. 
 
+```{r echo = FALSE, fig.align = "center", out.width = "100%", fig.cap = "Any employer recruiting our students is welcome to join our industry club, see details below"}
+knitr::include_graphics("images/industry-club-wide.png")
+```
+
 ## Industrial collaboration in Computer Science {#collabs}
 Membership of this club is open to employers, supporters and alumni who:
 
@@ -29,9 +34,7 @@ Membership of this club is open to employers, supporters and alumni who:
 * Participate in a range of industrially focused teaching and research events organised or hosted by the Department, see section \@ref(events)
 
 
-```{r echo = FALSE, fig.align = "center", out.width = "100%", fig.cap = "Any employer recruiting our students is welcome to join our industry club, see details below"}
-knitr::include_graphics("images/industry-club-wide.png")
-```
+
 
 
 ## Employers {#employers}

@@ -5,7 +5,7 @@ Many of our students are recruited _before_ they graduate by working for an empl
 knitr::include_graphics("images/employing-your-future.jpeg")
 ```
 
-(ref:captiongradceremony) Are these graduates the future of your organisation? If you want them to be, you need to engage early and often with students *before* they graduate. This will increase your chances of recruiting them. University of Manchester graduates celebrating their graduation outside the [Samuel Alexander](https://en.wikipedia.org/wiki/Samuel_Alexander) building with photobombing by [Gavin Brown](https://profgavinbrown.github.io/) 🎓
+(ref:captiongradceremony) Are these graduates the future of your organisation? If you want them to be, you need to engage early and often with students *before* they graduate. This will increase your chances of recruiting them. The picture shows University of Manchester graduates celebrating their graduation outside the [Samuel Alexander](https://en.wikipedia.org/wiki/Samuel_Alexander) building with photobombing by [Gavin Brown](https://profgavinbrown.github.io/) 🎓
 
 
 ## About our students {#students}
@@ -21,7 +21,7 @@ We are one of the biggest department of Computer Science at the [Russel Group](h
 
 ## Year long placements {#ie}
 
-A significant proportion of our undergraduate students do a year in industry. 
+A significant proportion of our undergraduate students do a year in industry. In 2024, we had 85 students start their placement year in industry shown in figure \@ref(fig:bigie-fig)
 
 ```{r bigie-fig, echo = FALSE, results='hide', message=FALSE, warning=FALSE, fig.align = "center", out.width = "100%", fig.cap = "(ref:iebig)"}
 
@@ -29,40 +29,20 @@ library(tidyverse)
 library(ggplot2)
 library(forcats)
 
-uomie <- readr::read_csv("https://raw.githubusercontent.com/dullhunk/cdyf/master/data/uomie.csv")
+ieuom <- readr::read_csv("https://raw.githubusercontent.com/dullhunk/cdyf/refs/heads/master/data/ieuom.csv")
 
-ggplot(uomie) + geom_bar(mapping = aes(x = IE, y = Department), stat= "identity")
-
-
+ggplot(ieuom, aes(y = forcats::fct_rev(forcats::fct_infreq(Department)))) +
+  geom_bar() +
+  labs(y = "Department at the University of Manchester", x = "Number of undergraduate students starting IE placements in 2024")
 ```
 
 <!--
-
-ggplot(uomie) + geom_bar(mapping = aes(x = IE, y = Department), stat = "identity")
-
-
-ggplot(uomie, aes(y = IE)) + geom_bar() doesn't like data in uomie because its different to mpg data in ways I don't currently understand
-
-its a data frame with 234 rows and 11 variables, manufacturer, model, displ, year, cyl, trans, driv, cty, hwy, fl, class
-
-https://ggplot2.tidyverse.org/reference/mpg.html
-
-https://github.com/tidyverse/ggplot2/blob/main/data-raw/mpg.csv
-
-https://github.com/dullhunk/cdyf/issues/1187
-
-ggplot(uomie) + geom_bar(mapping = aes(x = forcats::fct_infreq(IE), y = Department), stat = "identity")
-
-
-
-! Problem while computing aesthetics.
-ℹ Error occurred in the 1st layer.
-Caused by error in `forcats::fct_infreq()`:
-! `f` must be a factor or character vector, not a double vector.
-
+Still working out how to use ggplot with uomie.csv
+See https://github.com/dullhunk/cdyf/issues/1187
+Current solution is to make the data more like mpg with ieuom.csv
 -->
 
-(ref:iebig) Number of undergraduate students starting year-long Industrial Experience placement years in 2024 at the University of Manchester. The data is plotted by Department: `Physics`: Department of Physics & Astronomy[physics.manchester.ac.uk](https://www.physics.manchester.ac.uk), `Maths`: Department of Mathematics [maths.manchester.ac.uk](https://www.maths.manchester.ac.uk) , `Materials`: Department of Materials [materials.manchester.ac.uk](https://www.materials.manchester.ac.uk/), `MACE`: Department of Mechanical, Aerospace [mace.manchester.ac.uk](https://www.mace.manchester.ac.uk/), and Civil Engineering (MACE), `EES`: Department of Earth and Environmental Sciences [ees.manchester.ac.uk](https://www.ees.manchester.ac.uk/), `EEE`: Department of Electrical and Electronic Engineering [eee.manchester.ac.uk](https://www.eee.manchester.ac.uk/), `CS`: Department of Computer Science [cs.manchester.ac.uk](https://www.cs.manchester.ac.uk/), `Chemistry`: Department of Chemistry [chemistry.manchester.ac.uk](https://www.chemistry.manchester.ac.uk/), `ChemEng`: Department of Chemical Engineering [ce.manchester.ac.uk](https://www.ce.manchester.ac.uk/). Data from PowerBI as of 2025, note that summer internships are shown in this bar chart, only year long placements.
+(ref:iebig) Number of students starting an Industrial Experience (IE) placement year in 2024 as part of their undergraduate study at the University of Manchester. The data is plotted by Department: `CS`: Department of Computer Science [cs.manchester.ac.uk](https://www.cs.manchester.ac.uk/), `MACE`: Department of Mechanical, Aerospace and Civil Engineering (MACE) [mace.manchester.ac.uk](https://www.mace.manchester.ac.uk/), `EEE`: Department of Electrical and Electronic Engineering [eee.manchester.ac.uk](https://www.eee.manchester.ac.uk/), `ChemEng`: Department of Chemical Engineering [ce.manchester.ac.uk](https://www.ce.manchester.ac.uk/), `Chemistry`: Department of Chemistry [chemistry.manchester.ac.uk](https://www.chemistry.manchester.ac.uk/), `Maths`: Department of Mathematics [maths.manchester.ac.uk](https://www.maths.manchester.ac.uk), `Physics`: Department of Physics & Astronomy [physics.manchester.ac.uk](https://www.physics.manchester.ac.uk), `Materials`: Department of Materials [materials.manchester.ac.uk](https://www.materials.manchester.ac.uk/), `EES`: Department of Earth and Environmental Sciences [ees.manchester.ac.uk](https://www.ees.manchester.ac.uk/). Data from PowerBI as of 2025, note that summer internships are shown in this bar chart, only year long placements.
 
 year long placements
 
@@ -101,9 +81,17 @@ Imago
 
 ## Wednesday Waggle {#waggle}
 
-During term time, we highlight events and vacancies for Computer Science students from a [wide range of sources](https://www.cdyf.me/finding) in a weekly newsletter called the *Wednesday Waggle* ([waggle.cs.manchester.ac.uk](https://waggle.cs.manchester.ac.uk/waggle/about)) 🐝. This goes out to around ~1500 Bachelors and Masters Computer Science students in Manchester each week. If you have vacancies or events you would like our students to know about, you can advertise them at [careerconnect.manchester.ac.uk](https://careerconnect.manchester.ac.uk/), and let me know when they are live in the system, then I can highlight them to the weekly newsletter. Alternatively, point us to where they are advertised online, see [advertising vacancies to students](https://www.cdyf.me/finding#studentjobs). It can help students find your needle in the jobs haystack.
+During term time, we highlight events and vacancies for Computer Science students in a weekly newsletter called the *Wednesday Waggle*. 
+
+This goes out to all our Bachelors and Masters Computer Science students in Manchester each week. If you have vacancies or events you would like our students to know about, you can advertise them at [careerconnect.manchester.ac.uk](https://careerconnect.manchester.ac.uk/), and let me know when they are live in the system, then I can highlight them to the weekly newsletter. 
+
+Alternatively, point us to where they are advertised online, see [advertising vacancies to students](https://www.cdyf.me/finding#studentjobs). It can help students find your needle in the jobs haystack.
 
 
 
+## Hackathons {#hackathons}
+
+Our students are very active student body, some of the technology focussed societies seek sponsorship from industrial collaborators. 
 
 
+Some of these are done through student societies at the University of Manchester Students Union (UMSU). One of the biggest and longest running societies.
